@@ -1,12 +1,12 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
-DTSTART:20140724T095559
-DTEND:20140724T105559
-LOCATION:
+DTSTART:20140725T153628
+DTEND:20140725T163628
+LOCATION:My House
 DESCRIPTION;ENCODING=QUOTED-PRINTABLE:=
-This message should have some of the latest modifications to the iCalendarSharp component.
-SUMMARY:Latest modifications
+This is a simple message for the iCalendarSharp component.
+SUMMARY:A Simple Message
 PRIORITY:3
 END:VEVENT
 END:VCALENDAR

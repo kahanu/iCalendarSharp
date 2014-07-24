@@ -1,0 +1,5 @@
+C:\VSProjects\ICalendarSharp\iCalendarSharp\bin\Debug\iCalendarSharp.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp\bin\Debug\iCalendarSharp.pdb
+C:\VSProjects\ICalendarSharp\iCalendarSharp\obj\Debug\iCalendarSharp.csprojResolveAssemblyReference.cache
+C:\VSProjects\ICalendarSharp\iCalendarSharp\obj\Debug\iCalendarSharp.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp\obj\Debug\iCalendarSharp.pdb

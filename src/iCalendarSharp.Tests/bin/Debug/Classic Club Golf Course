@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:1.0
+BEGIN:VEVENT
+DTSTART:20140726T073000
+DTEND:20140726T113000
+LOCATION:Classic Club Golf Course - Palm Desert
+DESCRIPTION;ENCODING=QUOTED-PRINTABLE:=
+Important Reminders =0D=0A•	Please arrive at the course at least 30 minutes prior to Shotgun start time.=0D=0A•	CASH ONLY for payment of green fees and guest fees!!!=0D=0A•	Slow play is not permitted. Please be courteous to all golfers and keep on pace.=0D=0AIf you have any questions please contact either:=0D=0A•	communityservices@la-quinta.org - 760-777-7090
+SUMMARY:Classic Club Golf Course
+PRIORITY:2
+END:VEVENT
+END:VCALENDAR

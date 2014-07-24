@@ -1,0 +1,37 @@
+@model DemoMvc.Models.MessageModel
+
+<p>@DateTime.Now</p>
+
+<h1>iCalendarSharp Message</h1>
+<p>See how easy it is to create a iCalendar message and send it with your email messages.</p>
+
+<table>
+    <tr>
+        <td><b>Subject:</b></td>
+        <td>@Model.Subject</td>
+    </tr>
+    <tr>
+        <td><b>Location:</b></td>
+        <td>@Model.Location</td>
+    </tr>
+    <tr>
+        <td><b>Start Date:</b></td>
+        <td>@Model.StartDate</td>
+    </tr>
+    <tr>
+        <td><b>End Date:</b></td>
+        <td>@Model.EndDate</td>
+    </tr>
+    <tr>
+        <td><b>Message:</b></td>
+        <td>@Model.Message</td>
+    </tr>
+</table>
+
+<p>
+    There is an attachment with this email.  Go ahead and save it in your Outlook.
+</p>
+
+<p>
+    &copy;2014 iCalendarSharp
+</p>

@@ -1,0 +1,7 @@
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.Tests.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.Tests.pdb
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.pdb
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.csprojResolveAssemblyReference.cache
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.pdb

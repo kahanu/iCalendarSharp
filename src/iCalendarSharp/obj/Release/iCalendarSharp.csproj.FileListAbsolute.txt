@@ -1,0 +1,5 @@
+C:\VSProjects\ICalendarSharp\iCalendarSharp\bin\Release\iCalendarSharp.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp\bin\Release\iCalendarSharp.pdb
+C:\VSProjects\ICalendarSharp\iCalendarSharp\obj\Release\iCalendarSharp.dll
+C:\VSProjects\ICalendarSharp\iCalendarSharp\obj\Release\iCalendarSharp.pdb
+C:\VSProjects\ICalendarSharp\iCalendarSharp\obj\Release\iCalendarSharp.csprojResolveAssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
@@ -20,7 +21,8 @@ namespace DemoMvc.Models
 
         public string Location { get; set; }
 
-        [Required(ErrorMessage="Email is required")]
+        [Required(ErrorMessage="Recipient Email is required")]
+        [DisplayName("Recipient Email")]
         public string Email { get; set; }
 
         public string FileName { get; set; }

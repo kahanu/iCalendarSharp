@@ -19,7 +19,7 @@ namespace iCalendarSharp.Interfaces
         string Build();
 
         /// <summary>
-        /// Get the full physical path to the .vcs file.
+        /// Get the full physical path to the .ics file.
         /// </summary>
         string FileName { get; }
 

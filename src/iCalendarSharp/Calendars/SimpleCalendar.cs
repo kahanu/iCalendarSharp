@@ -61,8 +61,5 @@ namespace iCalendarSharp.Calendars
 
             return calendar;
         }
-
-
-
     }
 }

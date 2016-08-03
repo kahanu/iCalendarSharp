@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Text;
 using iCalendarSharp.DomainObjects;
@@ -60,6 +61,17 @@ namespace iCalendarSharp.Calendars
             string calendar = sb.ToString();
 
             return calendar;
+        }
+
+        /// <summary>
+        /// Build the appointment message and convert it to a stream.
+        /// </summary>
+        /// <returns></returns>
+        public Stream BuildToStream()
+        {
+            string build = Build();
+
+            return ConvertHelper.GenerateStreamFromString(build);
         }
     }
 }

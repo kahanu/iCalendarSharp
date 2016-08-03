@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using iCalendarSharp.Calendars;
 using iCalendarSharp.DomainObjects;
 using iCalendarSharp.Interfaces;
+using System.IO;
 
 namespace iCalendarSharp.Tests
 {
@@ -62,7 +63,7 @@ namespace iCalendarSharp.Tests
         }
 
         [TestMethod]
-        public void StringToStreamTestMethod()
+        public void full_calendar_StringToStreamTestMethod()
         {
             // Arrange
             CalendarEventRequest cEvent = new CalendarEventRequest();
@@ -80,7 +81,16 @@ namespace iCalendarSharp.Tests
 
             ICalendar simple = new FullCalendar(cEvent);
 
-            Calendar calendar = new Calendar(simple);
+            string build = simple.Build();
+            string buildAfterStreamReader;
+            Stream s = simple.BuildToStream();
+
+            using (StreamReader sr = new StreamReader(s))
+            {
+                buildAfterStreamReader = sr.ReadToEnd();
+            }
+
+            Assert.AreEqual(build, buildAfterStreamReader);
         }
     }
 }

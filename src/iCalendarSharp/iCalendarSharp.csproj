@@ -44,6 +44,7 @@
     <Compile Include="Calendars\SimpleCalendar.cs" />
     <Compile Include="DomainObjects\CalendarEventRequest.cs" />
     <Compile Include="DomainObjects\CalendarEventRequestBase.cs" />
+    <Compile Include="Helpers\ConvertHelper.cs" />
     <Compile Include="Helpers\FileManager.cs" />
     <Compile Include="Helpers\FormatHelper.cs" />
     <Compile Include="Infrastructure\PropertyBuilder.cs" />

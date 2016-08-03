@@ -12,3 +12,12 @@ C:\VSProjects\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.p
 C:\VSProjects\iCalendarSharp\src\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.csprojResolveAssemblyReference.cache
 C:\VSProjects\iCalendarSharp\src\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.dll
 C:\VSProjects\iCalendarSharp\src\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.pdb
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.Tests.dll
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.Tests.pdb
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.dll
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\iCalendarSharp.pdb
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.csprojResolveAssemblyReference.cache
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.dll
+C:\Projekt\Privat\iCalendarSharp\src\iCalendarSharp.Tests\obj\Debug\iCalendarSharp.Tests.pdb

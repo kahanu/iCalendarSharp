@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using iCalendarSharp.DomainObjects;
 using iCalendarSharp.Interfaces;
@@ -24,6 +25,11 @@ namespace iCalendarSharp.Calendars
             // For it to work correctly, all the necessary PropertyBuilder methods would have to be
             // implemented here, like in the SimpleCalendar class.
             return string.Format("IsRecurring:{0}", _request.IsRecurring);
+        }
+
+        public Stream BuildToStream()
+        {
+            return Helpers.ConvertHelper.GenerateStreamFromString(Build());
         }
 
         public string FileName

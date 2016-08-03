@@ -60,5 +60,27 @@ namespace iCalendarSharp.Tests
             // Act
             calendar.Save();
         }
+
+        [TestMethod]
+        public void StringToStreamTestMethod()
+        {
+            // Arrange
+            CalendarEventRequest cEvent = new CalendarEventRequest();
+            cEvent.PRODID = "-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN";
+            cEvent.DateEnd = DateTime.Parse("7/21/2014 9:39PM").ToString("yyyyMMdd\\THHmmss\\Z");
+            cEvent.DateStart = DateTime.Parse("7/21/2014 8:39PM").ToString("yyyyMMdd\\THHmmss\\Z");
+            cEvent.Description = "This is the description that will end up as the body of the message.<br />This is more stuff.\n";
+            cEvent.Location = "This is the location";
+            cEvent.Priority = 2;
+            cEvent.Subject = "This is the subject";
+            cEvent.UID = "something@mydomain.com";
+            cEvent.Version = "1.0";
+            cEvent.FileName = "Recurring Golf Course";
+            cEvent.IsRecurring = true;  // this is the new property used in the FullCalendar
+
+            ICalendar simple = new FullCalendar(cEvent);
+
+            Calendar calendar = new Calendar(simple);
+        }
     }
 }

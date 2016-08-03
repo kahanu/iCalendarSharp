@@ -69,9 +69,7 @@ namespace iCalendarSharp.Calendars
         /// <returns></returns>
         public Stream BuildToStream()
         {
-            string build = Build();
-
-            return ConvertHelper.GenerateStreamFromString(build);
+            return ConvertHelper.GenerateStreamFromString(Build());
         }
     }
 }

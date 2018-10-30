@@ -48,6 +48,12 @@ namespace iCalendarSharp.Infrastructure
             _sb.AppendLine();
         }
 
+        public void DateStamp(string value)
+        {
+            _sb.AppendFormat("DTSTAMP:{0}", value);
+            _sb.AppendLine();
+        }
+
         public void Location(string value)
         {
             _sb.AppendFormat("LOCATION:{0}", value);
@@ -72,6 +78,31 @@ namespace iCalendarSharp.Infrastructure
             _sb.AppendLine();
         }
 
+        /// <summary>
+        /// RFC 5545 compliant - legacy
+        /// </summary>
+        /// <param name="date"></param>
+        /// <param name="domain"></param>
+        public void UID(string date, string domain)
+        {
+            _sb.AppendFormat("UID: {0}{1}", date, domain);
+            _sb.AppendLine();
+        }
+
+        /// <summary>
+        /// RFC 7986 compliant
+        /// </summary>
+        public void UID()
+        {
+            _sb.AppendFormat("UID:{0}", Guid.NewGuid());
+            _sb.AppendLine();
+        }
+
+        public void Categories(string value)
+        {
+            _sb.AppendFormat("CATEGORIES:{0}", value);
+            _sb.AppendLine();
+        }
 
 
         #endregion

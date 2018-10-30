@@ -41,11 +41,15 @@ namespace iCalendarSharp.Calendars
 
             // These are the basic message header properties needed for every message.
             prop.BeginCalendar();
+            prop.ProdId(_request.PRODID);
             prop.Version(_request.Version);
             prop.BeginEvent();
 
             // These are the message specific properties needed just for my particular purpose.
             // In this case, it's just a basic calendar appointment with no bells-and-whistles.
+            //prop.UID(_request.DateStamp, _request.UID);
+            prop.UID();
+            prop.DateStamp(_request.DateStamp);
             prop.DateStart(_request.DateStart);
             prop.DateEnd(_request.DateEnd);
             prop.Location(_request.Location);

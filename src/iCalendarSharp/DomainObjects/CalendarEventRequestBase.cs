@@ -22,13 +22,18 @@ namespace iCalendarSharp.DomainObjects
         public string Version { get; set; }
 
         /// <summary>
-        /// (Optional) This should be a unique identifier across the network.
+        /// This should be a unique identifier across the network.
         /// </summary>
         /// <example>
         /// UTC Date with a random number and a domain
         /// Example: 20140721T143000Z-A84TU@mydomain.com
         /// </example>
         public string UID { get; set; }
+
+        /// <summary>
+        /// The date stamp specifies the DATE-TIME that iCalendar object was created in UTC format.
+        /// </summary>
+        public string DateStamp { get; set; }
 
         /// <summary>
         /// The start date in UTC format.
@@ -59,5 +64,11 @@ namespace iCalendarSharp.DomainObjects
         /// This populates the Summary data of the .ics file, which is the Subject field in Outlook.
         /// </summary>
         public string Subject { get; set; }
+
+        /// <summary>
+        /// (Optional) The category name(s) of the calendar.  Comma-delimited.
+        /// </summary>
+        public string Categories { get; set; }
+
     }
 }

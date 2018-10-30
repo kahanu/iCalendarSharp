@@ -64,7 +64,7 @@ namespace DemoMvc.Controllers
             CalendarEventRequest cEvent = new CalendarEventRequest();
             cEvent.PRODID = "-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN";
             cEvent.Version = "2.0";
-
+            cEvent.DateStamp = model.StartDate.ToString("yyyyMMdd\\THHmmss");
             cEvent.DateStart = model.StartDate.ToString("yyyyMMdd\\THHmmss");
             cEvent.DateEnd = model.EndDate.ToString("yyyyMMdd\\THHmmss");
             cEvent.Description = model.Message;

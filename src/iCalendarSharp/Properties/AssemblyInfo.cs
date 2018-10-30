@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Gizmo Beach")]
 [assembly: AssemblyProduct("iCalendarSharp")]
-[assembly: AssemblyCopyright("Copyright © Gizmo Beach 2014")]
+[assembly: AssemblyCopyright("Copyright © Gizmo Beach 2018")]
 [assembly: AssemblyTrademark("Gizmo Beach")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.3")]
-[assembly: AssemblyFileVersion("1.0.0.3")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]

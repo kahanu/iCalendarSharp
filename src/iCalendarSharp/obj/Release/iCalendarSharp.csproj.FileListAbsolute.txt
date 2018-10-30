@@ -8,3 +8,9 @@ C:\VSProjects\iCalendarSharp\src\iCalendarSharp\bin\Release\iCalendarSharp.pdb
 C:\VSProjects\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.csprojResolveAssemblyReference.cache
 C:\VSProjects\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.dll
 C:\VSProjects\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.pdb
+C:\Users\King\source\Workspaces\iCalendarSharp\src\iCalendarSharp\bin\Release\iCalendarSharp.dll
+C:\Users\King\source\Workspaces\iCalendarSharp\src\iCalendarSharp\bin\Release\iCalendarSharp.pdb
+C:\Users\King\source\Workspaces\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.csproj.CoreCompileInputs.cache
+C:\Users\King\source\Workspaces\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.dll
+C:\Users\King\source\Workspaces\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.pdb
+C:\Users\King\source\Workspaces\iCalendarSharp\src\iCalendarSharp\obj\Release\iCalendarSharp.csprojAssemblyReference.cache
